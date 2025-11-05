@@ -32,3 +32,9 @@ Cada ementa contém:
 - Python 3.7+
 - Google Chrome/Chromium instalado
 - Selenium WebDriver
+
+## Observações
+
+- O script salva automaticamente o HTML da página para debug caso não encontre ementas
+- Screenshots de erro são salvos automaticamente em caso de falha
+- Os arquivos de output são ignorados pelo Git (ver `.gitignore`)
